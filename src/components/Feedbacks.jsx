@@ -4,7 +4,7 @@ import { SectionWrapper } from '../hoc'
 import { fadeIn,textVariant } from '../utils/motion'
 import {motion} from 'framer-motion'
 import { testimonials } from '../constants'
-import { Feedback } from '@mui/icons-material'
+
 
 const FeedbackCard = ({index,testimonial,name,designation, company, image}) => (
   <motion.div
